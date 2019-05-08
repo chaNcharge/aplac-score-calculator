@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandbox</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <center>
+        <div id="top">
+            <h1>Score APLAC Exam</h1> 
+            <p>Enter scores in the fields, then click "Submit" to calculate:</p>
+        </div>
+    </center>
+   	<div class="scores">
+        <form id="scoreForm" action="/action_page.php">
+            MC Correct: <input type="number" name="mc" class="mcScores"><br><br>
+            <div class="frqScores">
+                FRQ 1: <input type="number" name="frq1"><br>
+                FRQ 2: <input type="number" name="frq2"><br>
+                FRQ 3: <input type="number" name="frq3"><br><br>
+            </div>
+            <input type="button" onclick="calculateScore()" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

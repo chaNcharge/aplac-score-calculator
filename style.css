@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-color: #333333;
+    color: white;
+}
+
+#top h1 {
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.submit > button {
+    padding: 10px 25px;
+    background-color: darkgray;
+    color: #ffffff;
+}
+
+.scores {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.scores .mcScores {
+}
+
+.frqScores input {
+}
